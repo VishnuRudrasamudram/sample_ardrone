@@ -1,5 +1,5 @@
 import rospy
-import roslib; roslib.load_manifest('ardrone_python')
+import roslib; roslib.load_manifest('sample_python')
 from std_msgs.msg import Empty
 from geometry_msgs.msg import Twist, Vector3
 
