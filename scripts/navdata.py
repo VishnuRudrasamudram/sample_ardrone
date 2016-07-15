@@ -12,6 +12,6 @@ if __name__ == '__main__':
     
     # subscribe to navdata
     rospy.Subscriber("/ardrone/navdata", Navdata, callback)
-    
+    # spin
     rospy.spin()
     
