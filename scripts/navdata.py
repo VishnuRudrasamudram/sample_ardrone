@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#
 import rospy
 import roslib; roslib.load_manifest('sample_ardrone')
 from ardrone_autonomy.msg import Navdata
